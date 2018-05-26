@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
-		<title>My First Webpage</title>
+		<title> וידויים למטרת הכרות  </title>
 		<link rel="stylesheet" href="./css/style.css">
 	</head>
 	<body>
@@ -11,6 +11,7 @@
 			<div class="container">
 				<div id="branding">
 					<h1><span class="highlight">Dating</span> Confessions</h1>
+					<img src="./img/conf.jpg">
 				</div>
 				<nav>
 					<ul>
@@ -22,6 +23,7 @@
 			</div>
 		</header>
 
+<!--
 		<section id="showcase">
 			<div class="container">
 				<h1>Meet Your Date - Annonymosly</h1>
@@ -33,29 +35,38 @@
 			<div class="container">
 				<h1>Subscribe</h1>
 				<!-- TODO: backend -->
-				<form>
+<!--				<form>
 					<input type="email" placeholder="Enter Email">	
 					<button type="submit" class="button_1">Subscribe</button>
 				</form>
 			</div>
 		</section>
+	-->
 
 		<section id="boxes">
 			<div class="container">	
 				<div class="box">
-					<img src="./img/love.jpg">
-					<h3>HTML5 Markup</h3>
-					<p>Sample Text.Sample Text. Sample Text. Sample Text. Sample Text. Sample Text.</p>
+					<form>
+						<h3 dir="rtl">הצג וידויים מ:</h3>
+						<input type="radio" name="gender" value="גברים" checked> גברים<br>
+						<input type="radio" name="gender" value="נשים"> נשים<br>
+					</form>
 				</div>
 				<div class="box">
-					<img src="./img/conf.jpg">
-					<h3>CSS Styling</h3>
-					<p>Sample Text.Sample Text. Sample Text. Sample Text. Sample Text. Sample Text.</p>
+					<h3 dir="rtl">חיבור לדת</h3>
+					<div class="slidecontainer">
+  						<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+					</div>
 				</div>
 				<div class="box">
-					<img src="./img/conf.jpg">
-					<h3>Graphic Design</h3>
-					<p>Sample Text.Sample Text. Sample Text. Sample Text. Sample Text. Sample Text.</p>
+					<h3 dir="rtl">טווח גילאים </h3>
+					<select name="גילאים" size = "5" multiple>
+					  <option value="18-21">18-21</option>
+					  <option value="22-25">22-25</option>
+					  <option value="26-30">26-30</option>
+					  <option value="31-40">31-40</option>
+					  <option value="40+">40+</option>
+					</select>
 				</div>
 			</div>
 		</section>

@@ -44,6 +44,15 @@ header li{
 	display: inline;
 	padding: 0 20px 0 20px;
 }
+header img{
+	display: block;
+	padding-left :80%;
+	padding-top: -10px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 20%;
+}
 header #branding{
 	float: left;
 }
@@ -64,7 +73,7 @@ header a:hover{
 	font-weight: bold;
 }
 
-/* Showcase */
+/* Showcase 
 
 #showcase{
 	min-height: 400px;
@@ -80,10 +89,10 @@ header a:hover{
 #showcase p{
 	font-size: 20px;
 }
+*/
 
 
-
-/*newsletter */
+/*newsletter 
 #newsletter{
 	padding: 15px;
 	color: #ffffff;
@@ -101,6 +110,7 @@ header a:hover{
 	height: 25px;
 	width: 250px;
 }
+*/
 
 /* boxes */
 
@@ -115,9 +125,6 @@ header a:hover{
 	text-align: center;
 }
 
-#boxes .box img{
-	width: 150px;
-}
 
 footer{
 	padding: 20px;
